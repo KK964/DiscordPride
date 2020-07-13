@@ -1,0 +1,20 @@
+{
+  "name": "discordpride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test success",
+    "dev": "nodemon index.js"
+  },
+  "author": "KK964",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "dotenv-flow": "^3.2.0",
+    "fs": "0.0.1-security",
+    "google-spreadsheet": "^2.0.7",
+    "nodemon": "^2.0.4"
+  }
+}
