@@ -62,8 +62,8 @@ client.on('message', msg => {
         if(!msg.channel == "730595007169429555") {return msg.react('❌')}
         member.send({embed: {
             color: 3447003,
-            title: `**${member.displayName}** Welcome :D`,
-            description: `Thanks for joining, ${member.displayName}`,
+            title: `Welcome :D`,
+            description: `Thanks for joining.`,
             url: 'https://forms.gle/db1rnbxAGrrXUJSP9',
             fields: [
                 {
